@@ -85,3 +85,24 @@ Target:
 - XGBoost
 - Hyperparameter Tuning
 - Streamlit Deployment
+
+## Task 2 – Regression Model Comparison
+
+### Models Implemented
+- Linear Regression
+- Ridge Regression
+- Decision Tree Regressor
+
+### Evaluation Metrics
+- RMSE
+- R² Score
+
+### Results
+
+| Model | RMSE | R² Score |
+|--------|------:|---------:|
+| Linear Regression | 70060.52 | 0.625424 |
+| Ridge Regression | 70057.42 | 0.625457 |
+| Decision Tree | 71510.90 | 0.609755 |
+
+**Best Model:** Ridge Regression
