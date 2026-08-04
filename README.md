@@ -1,31 +1,68 @@
-# 🏠 California Housing Price Prediction using Linear Regression
+# 🏡 California House Price Predictor
+
+A professional end-to-end Machine Learning web application that predicts California house prices based on housing characteristics using **Ridge Regression** and **Streamlit**.
+
+---
+
+## 🚀 Live Demo
+
+> *(Add your Streamlit deployment link here after deployment.)*
+
+Example:
+
+https://your-app-name.streamlit.app
+
+---
 
 ## 📌 Project Overview
 
-This project predicts California housing prices using the Linear Regression algorithm from Scikit-learn.
+This project predicts the estimated market value of houses in California using a Machine Learning model trained on the California Housing Dataset.
 
-The project demonstrates the complete Machine Learning workflow, including:
+The project demonstrates the complete Machine Learning workflow:
 
-- Data Loading
-- Exploratory Data Analysis (EDA)
 - Data Cleaning
-- Missing Value Handling
-- One-Hot Encoding
-- Feature Selection
-- Train-Test Split
-- Linear Regression Model Training
+- Exploratory Data Analysis (EDA)
+- Data Preprocessing
+- Feature Engineering
+- Model Comparison
 - Model Evaluation
-- Model Saving
+- Pipeline Creation
+- Web App Deployment using Streamlit
+
+---
+
+## ✨ Features
+
+- 🏠 Predict California house prices instantly
+- 📊 Interactive Streamlit dashboard
+- 🎯 Ridge Regression model
+- 📈 Price gauge visualization
+- 📋 Property summary
+- 📊 Model performance metrics
+- 🎨 Modern responsive UI
+- ⚡ Real-time predictions
+
+---
+
+## 🛠 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| Pandas | Data Analysis |
+| NumPy | Numerical Computing |
+| Scikit-Learn | Machine Learning |
+| Streamlit | Web Application |
+| Plotly | Interactive Charts |
+| Joblib | Model Serialization |
 
 ---
 
 ## 📂 Dataset
 
-California Housing Dataset (Kaggle)
+**California Housing Dataset**
 
-Rows: **20,640**
-
-Features:
+Features include:
 
 - Longitude
 - Latitude
@@ -37,72 +74,156 @@ Features:
 - Median Income
 - Ocean Proximity
 
-Target:
+Target Variable:
 
 - Median House Value
+
+---
+
+## 🤖 Machine Learning Pipeline
+
+The project uses a Scikit-Learn Pipeline containing:
+
+- Missing Value Imputation
+- One-Hot Encoding
+- Standard Scaling
+- Ridge Regression
 
 ---
 
 ## 📊 Model Performance
 
 | Metric | Value |
-|---------|---------|
-| MAE | 50,670.74 |
-| RMSE | 70,060.52 |
+|---------|-------|
+| Algorithm | Ridge Regression |
+| RMSE | 70,066 |
 | R² Score | 0.6254 |
 
 ---
 
-## 🛠 Technologies Used
+## 📸 Application Screenshots
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Joblib
-- Jupyter Notebook
+### Home Page
+
+![Homepage](assets/homepage.png)
 
 ---
 
-## 📈 Workflow
+### Prediction Result
 
-1. Load Dataset
-2. Perform EDA
-3. Handle Missing Values
-4. Encode Categorical Features
-5. Split Data
-6. Train Linear Regression Model
-7. Evaluate Performance
-8. Save Trained Model
+![Prediction](assets/prediction.png)
 
 ---
 
-## 🚀 Future Improvements
+### Dashboard
 
-- Random Forest Regressor
-- XGBoost
-- Hyperparameter Tuning
-- Streamlit Deployment
+![Dashboard](assets/dashboard.png)
 
-## Task 2 – Regression Model Comparison
+---
 
-### Models Implemented
-- Linear Regression
-- Ridge Regression
-- Decision Tree Regressor
+## 📁 Project Structure
 
-### Evaluation Metrics
-- RMSE
-- R² Score
+```text
+LinearRegressionProject/
 
-### Results
+│── Data/
+│ └── housing.csv
 
-| Model | RMSE | R² Score |
-|--------|------:|---------:|
-| Linear Regression | 70060.52 | 0.625424 |
-| Ridge Regression | 70057.42 | 0.625457 |
-| Decision Tree | 71510.90 | 0.609755 |
+│── models/
+│ ├── house_price_model.pkl
+│ └── house_price_pipeline.pkl
 
-**Best Model:** Ridge Regression
+│── assets/
+│ ├── homepage.png
+│ ├── prediction.png
+│ └── dashboard.png
+
+│── notebooks/
+│ ├── task1_ml_linear_regression.ipynb
+│ └── AI_ML_Task2_Model_Comparison.ipynb
+
+│── app.py
+│── train.py
+│── requirements.txt
+│── README.md
+│── .gitignore
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+```
+
+Move into the project folder
+
+```bash
+cd YOUR_REPOSITORY
+```
+
+Create a virtual environment
+
+```bash
+python3 -m venv .venv
+```
+
+Activate it
+
+### macOS/Linux
+
+```bash
+source .venv/bin/activate
+```
+
+### Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+python3 -m streamlit run app.py
+```
+
+---
+
+## 📈 Future Improvements
+
+- Deep Learning model comparison
+- Interactive California map
+- User authentication
+- Cloud deployment
+- API integration
+- Additional visualization dashboards
+
+---
+
+## 👨‍💻 Author
+
+**Sahil Nabi**
+
+B.Tech Computer Science & Engineering
+
+GitHub: https://github.com/sahilnabi279
+
+LinkedIn: *(Add your LinkedIn profile URL here.)*
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
