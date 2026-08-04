@@ -6,11 +6,7 @@ A professional end-to-end Machine Learning web application that predicts Califor
 
 ## 🚀 Live Demo
 
-> *(Add your Streamlit deployment link here after deployment.)*
-
-Example:
-
-https://your-app-name.streamlit.app
+https://california-house-price-predictor-sahil.streamlit.app/
 
 ---
 
