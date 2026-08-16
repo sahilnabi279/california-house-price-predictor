@@ -212,14 +212,6 @@ python3 -m streamlit run app.py
 
 **Sahil Nabi**
 
-B.Tech Computer Science & Engineering
-
 GitHub: https://github.com/sahilnabi279
 
-LinkedIn: *(Add your LinkedIn profile URL here.)*
-
----
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub!
+LinkedIn: https://www.linkedin.com/in/sahil-nabi/
