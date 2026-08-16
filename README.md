@@ -101,19 +101,19 @@ The project uses a Scikit-Learn Pipeline containing:
 
 ### Home Page
 
-![Homepage](assets/homepage.png)
+![Homepage](assets/Homepage.png)
 
 ---
 
 ### Prediction Result
 
-![Prediction](assets/prediction.png)
+![Prediction](assets/Prediction.png)
 
 ---
 
 ### Dashboard
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/Dashboard.png)
 
 ---
 
